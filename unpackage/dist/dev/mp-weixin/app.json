@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/cloudFunction/cloudFunction",
+    "pages/cloudFunction/index",
+    "pages/cloudFunction/register",
+    "pages/cloudFunction/help",
+    "pages/cloudFunction/renwu",
+    "pages/cloudFunction/search",
+    "pages/cloudFunction/play",
+    "pages/cloudFunction/sz",
+    "pages/cloudFunction/tuijian",
+    "pages/validate-demo/add",
+    "pages/validate-demo/edit",
+    "pages/validate-demo/list",
+    "pages/validate-demo/detail",
+    "pages/webview/webview",
+    "uni_modules/uni-upgrade-center-app/pages/upgrade-popup",
+    "pages/cloudFunction/redis/redis",
+    "uni_modules/uni-upgrade-center/pages/version/list",
+    "uni_modules/uni-upgrade-center/pages/version/add",
+    "uni_modules/uni-upgrade-center/pages/version/detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTitleText": "考研调剂小游戏",
+    "navigationBarBackgroundColor": "#C1A291",
+    "navigationBarTextStyle": "white"
+  },
+  "usingComponents": {}
+}

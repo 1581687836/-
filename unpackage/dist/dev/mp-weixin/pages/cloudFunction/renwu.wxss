@@ -1,0 +1,126 @@
+
+.container{
+  position: relative;
+}
+.bg{
+  position: absolute;
+  top:0;
+  height:100vh;
+  width:100vw;
+}
+.bigBox{
+  position: absolute;
+  top:25rpx;
+  left:5vw;
+  width: 90vw;
+  height: 20vh;
+  background-color:#FEE1C2;
+  border-radius: 15rpx;
+  z-index: 1;
+}
+.bigBox .b1{
+  position: absolute;
+  width: 70rpx;
+  height: 70rpx;
+  left:35rpx;
+  top:50rpx;
+}
+.bigBox .b22{
+  position: absolute;
+  width: 75rpx;
+  height: 75rpx;
+  left:35rpx;
+  top:140rpx;
+  z-index: 1;
+}
+.bigBox .b2{
+  position: absolute;
+  width: 75rpx;
+  height: 75rpx;
+  left:120rpx;
+  top:140rpx;
+  z-index: 1;
+}
+.bigBox .b3{
+  position: absolute;
+  width: 75rpx;
+  height: 75rpx;
+  right:38rpx;
+  top:140rpx;
+}
+.bigBox .b4{
+  position: absolute;
+  width: 300rpx;
+  height:100rpx;
+  right:20rpx;
+  top:35rpx;
+}
+.jindu{
+	position: absolute;
+	top:290rpx;
+	left:5vw;
+	width: 90vw;
+	height: 70vh;
+	font-size: 20px;
+	padding-left: 0rpx;
+	padding-right: 0rpx;
+	overflow: scroll;
+	color:white;
+	background-color:#FEE1C2;
+	border-radius: 15rpx;
+	z-index: 1;
+}
+.wenzi{
+	padding-top: 40rpx;
+	font-size: 25px;
+	text-align: center;
+}
+._p{
+	color:saddlebrown;
+	text-indent: 1em;
+	line-height: 120rpx;
+	font-size: 23px;
+}
+.coin{
+	position: absolute;
+	font-size: 20px;
+	color:white;
+	top:60rpx;
+	right:150rpx;
+}
+.img1{
+	position: absolute;
+	top:90rpx;
+	left:220rpx;
+	width: 160rpx;
+	height: 160rpx;
+}
+.img2{
+	position: absolute;
+	top:200rpx;
+	left:405rpx;
+	width: 160rpx;
+	height: 160rpx;
+}
+.img3{
+	position: absolute;
+	top:320rpx;
+	left:485rpx;
+	width: 160rpx;
+	height: 160rpx;
+}
+.img4{
+	position: absolute;
+	top:440rpx;
+	left:220rpx;
+	width: 160rpx;
+	height: 160rpx;
+}
+.img5{
+	position: absolute;
+	top:580rpx;
+	left:220rpx;
+	width: 160rpx;
+	height: 160rpx;
+}
+

@@ -1,0 +1,154 @@
+{
+  "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/cloudFunction/cloudFunction",
+      "style": {
+        "navigationBarTitleText": "考研调剂小游戏",
+		"navigationBarBackgroundColor": "#C1A291",
+		"navigationBarTextStyle":"white",
+        "enablePullDownRefresh": false
+      }
+    },   
+	{
+	  "path": "pages/cloudFunction/index",
+	  "style": {
+		"navigationBarTitleText": "考研调剂小游戏",
+		"navigationBarBackgroundColor": "#C1A291",
+		"navigationBarTextStyle":"white",
+	    "enablePullDownRefresh": false
+	  }
+	},
+	{
+	  "path": "pages/cloudFunction/register",
+	  "style": {
+	    "navigationBarTitleText": "考研调剂小游戏",
+		"navigationBarBackgroundColor": "#C1A291",
+		"navigationBarTextStyle":"white",
+	    "enablePullDownRefresh": false
+	  }
+	},
+	{
+	  "path": "pages/cloudFunction/help",
+	  "style": {
+	    "navigationBarTitleText": "考研调剂小游戏",
+		"navigationBarBackgroundColor": "#C1A291",
+		"navigationBarTextStyle":"white",
+	    "enablePullDownRefresh": false
+	  }
+	},
+	{
+	  "path": "pages/cloudFunction/renwu",
+	  "style": {
+	    "navigationBarTitleText": "考研调剂小游戏",
+		"navigationBarBackgroundColor": "#C1A291",
+		"navigationBarTextStyle":"white",
+	    "enablePullDownRefresh": false
+	  }
+	},
+	{
+	  "path": "pages/cloudFunction/search",
+	  "style": {
+	    "navigationBarTitleText": "考研调剂小游戏",
+		"navigationBarBackgroundColor": "#C1A291",
+		"navigationBarTextStyle":"white",
+	    "enablePullDownRefresh": false
+	  }
+	},
+	{
+	  "path": "pages/cloudFunction/play",
+	  "style": {
+	    "navigationBarTitleText": "考研调剂小游戏",
+		"navigationBarBackgroundColor": "#C1A291",
+		"navigationBarTextStyle":"white",
+	    "enablePullDownRefresh": false
+	  }
+	},
+	{
+	  "path": "pages/cloudFunction/sz",
+	  "style": {
+	    "navigationBarTitleText": "考研调剂小游戏",
+		"navigationBarBackgroundColor": "#C1A291",
+		"navigationBarTextStyle":"white",
+	    "enablePullDownRefresh": false
+	  }
+	},
+	{
+	  "path": "pages/cloudFunction/tuijian",
+	  "style": {
+	    "navigationBarTitleText": "考研调剂小游戏",
+		"navigationBarBackgroundColor": "#C1A291",
+		"navigationBarTextStyle":"white",
+	    "enablePullDownRefresh": false
+	  }
+	},
+     {
+      "path": "pages/validate-demo/add",
+      "style": {
+        "navigationBarTitleText": "新增"
+      }
+    }, {
+      "path": "pages/validate-demo/edit",
+      "style": {
+        "navigationBarTitleText": "修改"
+      }
+    }, {
+      "path": "pages/validate-demo/list",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    }, {
+      "path": "pages/validate-demo/detail",
+      "style": {}
+    }, {
+      "path": "pages/webview/webview",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+
+    },
+    {
+      "path": "uni_modules/uni-upgrade-center-app/pages/upgrade-popup",
+      "style": {
+        "disableScroll": true,
+        "app-plus": {
+          "backgroundColorTop": "transparent",
+          "background": "transparent",
+          "titleNView": false,
+          "scrollIndicator": false,
+          "popGesture": "none",
+          "animationType": "fade-in",
+          "animationDuration": 200
+
+        }
+      }
+    }, {
+      "path": "pages/cloudFunction/redis/redis",
+      "style": {
+        "navigationBarTitleText": "扩展能力Redis",
+        "enablePullDownRefresh": false
+      }
+    }, {
+      "path": "uni_modules/uni-upgrade-center/pages/version/list",
+      "style": {
+        "navigationBarTitleText": "版本列表"
+      }
+    }, {
+      "path": "uni_modules/uni-upgrade-center/pages/version/add",
+      "style": {
+        "navigationBarTitleText": "新版发布"
+      }
+    }, {
+      "path": "uni_modules/uni-upgrade-center/pages/version/detail",
+      "style": {
+        "navigationBarTitleText": "版本信息查看"
+      }
+    }
+    ],
+  "globalStyle": {
+	"navigationBarTitleText": "考研调剂小游戏",
+	"navigationBarBackgroundColor": "#C1A291",
+	"navigationBarTextStyle":"white"   
+   
+  }
+}

@@ -1,0 +1,18 @@
+
+.container{
+  position: relative;
+}
+.container .img1{
+  position: absolute;
+  top:0;
+  height:100vh;
+  width:100vw;
+}
+.img2{
+	position: absolute;
+	top:210rpx;
+	left: 400rpx;
+	height:350rpx;
+	width:380rpx;
+}
+

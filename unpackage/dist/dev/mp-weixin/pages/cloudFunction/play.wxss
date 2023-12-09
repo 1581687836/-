@@ -1,0 +1,44 @@
+
+.selected{
+	background-color: pink;
+}
+.container{
+  position: relative;
+}
+.bg{
+  position: absolute;
+  top:0;
+  height:100vh;
+  width:100vw; 
+  z-index: -100;
+}
+.ques{
+	position: absolute;
+	top:860rpx;
+	left: 65rpx;
+	z-index: 10;
+	font-size: 23px;
+}
+.xuanxiang{
+	position: absolute;
+	top:980rpx;
+	left:100rpx;
+	z-index: 10;
+	font-size: 22px;
+}
+.opla{
+	margin-bottom: 5rpx;
+	width: 300rpx;
+	height: 80rpx;
+	text-align: center;
+	background-color: darkorange;
+	border-radius: 20%;
+}
+.qianjin{
+	position: absolute;
+	top:1060rpx;
+	left:630rpx;
+	width: 100rpx;
+	height: 100rpx;
+}
+

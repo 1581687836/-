@@ -1,0 +1,7 @@
+{
+  "name": "tiaojitianbao",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

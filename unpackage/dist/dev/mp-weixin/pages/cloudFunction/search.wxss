@@ -1,0 +1,175 @@
+
+.container{
+  position: relative;
+}
+.bg{
+  position: absolute;
+  top:0;
+  height:100vh;
+  width:100vw;
+}
+.bigBox{
+  position: absolute;
+  top:25rpx;
+  left:5vw;
+  width: 90vw;
+  height: 20vh;
+  background-color:#FEE1C2;
+  border-radius: 15rpx;
+  z-index: 1;
+}
+.bigBox .b1{
+  position: absolute;
+  width: 70rpx;
+  height: 70rpx;
+  left:35rpx;
+  top:50rpx;
+}
+.bigBox .b22{
+  position: absolute;
+  width: 75rpx;
+  height: 75rpx;
+  left:35rpx;
+  top:140rpx;
+  z-index: 1;
+}
+.bigBox .b2{
+  position: absolute;
+  width: 75rpx;
+  height: 75rpx;
+  left:120rpx;
+  top:140rpx;
+  z-index: 1;
+}
+.bigBox .b3{
+  position: absolute;
+  width: 75rpx;
+  height: 75rpx;
+  right:38rpx;
+  top:140rpx;
+}
+.bigBox .b4{
+  position: absolute;
+  width: 300rpx;
+  height:100rpx;
+  right:20rpx;
+  top:35rpx;
+}
+.coin{
+	position: absolute;
+	font-size: 20px;
+	color:white;
+	top:60rpx;
+	right:150rpx;
+}
+.chaxun{
+	position: absolute;
+	top: 300rpx;
+	left: 260rpx;
+	z-index: 20;
+}
+.pk{
+	position: absolute;
+	top:300rpx;
+	left:50rpx;
+	z-index:20;
+	border: 1px solid black;
+	width: 200rpx;
+	height: 70rpx;
+	border-radius: 8%;
+}
+.form-btn{
+	position: absolute;
+	top:300rpx;
+	right:55rpx;
+	width: 80rpx;
+	height: 80rpx;
+	z-index:30;
+	background-color: #FEE1C2;
+	border: none;
+	cursor: pointer;
+	background-image: url(data:image/png;base64,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);
+}
+.cxinput{
+	display: inline-block;
+	border: 1px solid black;
+	width: 350rpx;
+	height: 70rpx;
+	border-radius: 8%;
+}
+.cxinfo{
+	position: absolute;
+	padding-left: 10rpx;
+	padding-right: 0rpx;
+	top:290rpx;
+	left:5vw;
+	width: 90vw;
+	height: 70vh;
+	background-color: #FEE1C2;
+	font-size: 18px;
+	color: black;
+	z-index:10;
+	border-radius: 2%;
+	overflow: scroll;
+}
+.cxinfo-ul{
+	position: absolute;
+	padding-left: 10rpx;
+	padding-right: 0rpx;
+	top:110rpx;
+	left:5vw;
+	width: 90vw;
+	height: 70vh;
+	background-color: #FEE1C2;
+	font-size: 18px;
+	color: black;
+	z-index:10;
+	border-radius: 2%;
+	overflow: scroll;
+}
+.infogeted{
+	position: relative;
+	margin-bottom: 40rpx;
+	width: 600rpx;
+	height: 180rpx;
+	border-radius: 8%;
+	box-shadow: 3px 3px 3px #888888;
+}
+.sshool{
+	position: absolute;
+	top:22rpx;
+	font-size: 22px;
+	left:10rpx;
+}
+.smajor{
+	position: absolute;
+	top:32rpx;
+	font-size: 16px;
+	left:315rpx;
+}
+.sreceivenumber{
+	position: absolute;
+	top:110rpx;
+	font-size: 16px;
+	left:10rpx;
+}
+.tiaojibtn{
+	position: absolute;
+	top:700rpx;
+	left:100rpx;
+	color:white;
+	background-color: #FEE1C2;
+}
+.icon-box{
+	position: absolute;
+	top:108rpx;
+	left:520rpx;
+	width: 200rpx;
+	height: 200rpx;
+}
+.tiaojibtn{
+	position: absolute;
+	top:100rpx;
+	left:30rpx;
+}
+

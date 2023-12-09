@@ -1,0 +1,1 @@
+<view class="container"><image class="img1" src="../../static/bg/bg.png"></image><view data-event-opts="{{[['tap',[['Login',['$event']]]]]}}" bindtap="__e"><image class="img2" src="../../static/bg/21.gif" mode></image></view></view>
